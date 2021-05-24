@@ -1,0 +1,12 @@
+{
+  "environments": [
+    {
+      "environment": "python",
+      "proxy": "",
+      "dependencies": "requirements.txt",
+      "repositories": [
+        "github.com/michaelcampbellgithub/dependency-manager"
+      ]
+    }
+  ]
+}
