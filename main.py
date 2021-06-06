@@ -39,6 +39,12 @@ if __name__ == '__main__':
         type=str,
         help="Password for accessing SCM"
     )
+    AP.add_argument(
+        "--scm_key",
+        required=False,
+        type=str,
+        help="SSH key for accessing SCM"
+    )
 
     # Parse args
     args = vars(AP.parse_args())
